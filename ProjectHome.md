@@ -1,0 +1,3 @@
+The PBSS is for studying the near real-time performance of a public bus service in a generic city area.  The system is distributed (not monolithic), i.e. it is comprised of subsystems.  Each subsystem runs on its own workstation, and they exchange/update data by making calls over a LAN.  The system architecture style is peer-to-peer, as subsystems will act both as clients and servers by requesting and providing services.
+
+To avoid compatibility issues, the end-to-end system is totally Java-based.  The program code is Java, the subsystems are Java packages, the WWW services platform is JSP, and Java RMI is used for inter-process/subsystem communication and interaction.
